@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="Comps\CompBetterDeepScanner.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_BetterScannerMineralsDeep.cs" />
+    <Compile Include="Harmony\Alert_CannotBeUsedRoofed_UnusableBuildings.cs" />
     <Compile Include="Harmony\CompScanner_CanUseNow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings\BGPScannerSettings.cs" />
