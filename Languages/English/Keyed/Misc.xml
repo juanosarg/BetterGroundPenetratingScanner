@@ -2,8 +2,8 @@
 <LanguageData>
   <BGPScanner_Name>Better ground-penetrating scanner</BGPScanner_Name>
   <BGPScanner_Multiplier>Chosen output time multiplier</BGPScanner_Multiplier>
-  <BGPScanner_DivideByCommonality>Divide search time by thing deep commality</BGPScanner_DivideByCommonality>
-  <BGPScanner_DivideByCommonalityDesc>The more common the thing is, the quicker it will be to find. This only apply when choosing a specific output. It is applied after the choosen output multiplier.</BGPScanner_DivideByCommonalityDesc>
+  <BGPScanner_DivideByCommonality>Divide search time by thing's deep commonality</BGPScanner_DivideByCommonality>
+  <BGPScanner_DivideByCommonalityDesc>The more common the thing is, the quicker it will be to find. This only applies when choosing a specific output. It is applied after the chosen output multiplier.</BGPScanner_DivideByCommonalityDesc>
   <BGPScanner_AutoEff>Automatic mode scan efficiency</BGPScanner_AutoEff>
   <BGPScanner_AllowUnderRoof>Allow to build the ground-penetrating scanner under a roof</BGPScanner_AllowUnderRoof>
   <BGPScanner_Auto>Enable automatic mode</BGPScanner_Auto>
