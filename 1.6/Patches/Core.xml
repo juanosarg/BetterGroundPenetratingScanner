@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="GroundPenetratingScanner"]</xpath>
+		<value>
+			<tickerType>Normal</tickerType>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="GroundPenetratingScanner"]/comps/li[@Class="CompProperties_ScannerMineralsDeep"]</xpath>
+		<value>
+			<li Class="BGPScanner.CompProperties_BetterScannerMineralsDeep">
+				<scanSpeedStat>ResearchSpeed</scanSpeedStat>
+				<scanFindMtbDays>3</scanFindMtbDays>
+				<scanFindGuaranteedDays>6</scanFindGuaranteedDays>
+				<soundWorking>ScannerGroundPenetrating_Ambience</soundWorking>
+			</li>
+		</value>
+	</Operation>
+</Patch>

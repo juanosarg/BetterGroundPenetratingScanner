@@ -1,5 +1,6 @@
 ﻿using HarmonyLib;
 using RimWorld;
+using Verse;
 
 namespace BGPScanner
 {
@@ -8,7 +9,7 @@ namespace BGPScanner
     public static class CompScanner_CanUseNow
     {
         [HarmonyPrefix]
-        private static bool Prefix(CompScanner __instance, ref bool __result)
+        private static bool Prefix(CompScanner __instance, ref AcceptanceReport __result)
         {
             if (BGPScannerMod.settings.allowUnderRoof)
             {
